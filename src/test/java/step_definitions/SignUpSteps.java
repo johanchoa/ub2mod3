@@ -56,8 +56,13 @@ public class SignUpSteps {
     @When("Crear usuario y clave")
     public void crearUsuarioYClave() {
 
-        driver.findElement(By.id("sign-username")).sendKeys("Demo319003");
-        driver.findElement(By.id("sign-password")).sendKeys("ClaveDemo");
+        String userName = ""+(int)(Math.random()*Integer.MAX_VALUE);
+        String password = ""+(int)(Math.random()*Integer.MAX_VALUE);
+        String emailID = "User"+userName+"@example.com";
+
+
+        driver.findElement(By.id("sign-username")).sendKeys(emailID);
+        driver.findElement(By.id("sign-password")).sendKeys(password);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         
@@ -81,7 +86,6 @@ public class SignUpSteps {
 
         alert.accept();
 
-//        return alertText;
     }
 
     @After
