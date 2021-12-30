@@ -37,8 +37,11 @@ public class LogInSteps {
     @And("Seleccionar LogIn Buttom")
     public void seleccionar_log_in_buttom() {
 
+
         driver.navigate().to ("https://www.demoblaze.com/index.html");
-        driver.findElement(By.id("login2")).click();
+        driver.findElement(By.id("signin2")).click();
+
+
     }
     @When("Ingresar usuario y clave")
     public void ingresar_usuario_y_clave() {
@@ -66,6 +69,8 @@ public class LogInSteps {
         String nameuser = String.valueOf(driver.findElement(By.xpath("//*[@id=\'nameofuser\']")).getText());
 
         Assert.assertEquals(nameuser, "Welcome johanchoconta");
+
+
         }
 
 //    @After
