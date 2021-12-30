@@ -1,0 +1,6 @@
+page_objects\HomePage.class
+step_definitions\LogInSteps.class
+step_definitions\SignUpSteps.class
+starter\searchTestSuite.class
+step_definitions\SelectProducts.class
+step_definitions\OrderProducts.class
