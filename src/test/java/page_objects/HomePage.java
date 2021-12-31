@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 
 
-public class HomePage {
+public class  HomePage {
 
     private WebDriver driver;
     @FindBy(how = How.ID,using ="signin2")
