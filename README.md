@@ -40,7 +40,14 @@ Dada la configuración que previamente Johan realizó para incluir las propiedad
 Para esta actividad se crearon  como punto de partida, en la sección de features ubicados en src/test/resources/features los documentos de cucumber .features en lenguaje Gherkin para la declaración de los pasos a ejecutar en cada una de las pruebas.
 
 Para el punto 4 de la actividad se creó el documento Selector.feature ubicado en  src/test/resources/features/Selector.feature
-Para el punto 5 y 6 de la actividad se creó el documento ExecuteOrder.feature ubicado en  src/test/resources/features/ExecuteOrder.feature
+Para el punto 5 de la actividad se creó el documento DeleteProduct.feature ubicado en  src/test/resources/features/DeleteProduct.feature 
+Para el punto 6 de la actividad se creó el documento ExecuteOrder.feature ubicado en  src/test/resources/features/ExecuteOrder.feature
+
+a su vez, fueron creadas las clases dentro de los step_definitions para la ejecución de las pruebas solicitadas.
+
+Para el punto 4 de la actividad se creó la clase Selector.feature ubicado en  src/test/java/step_definitions/SelectProducts.java
+Para el punto 5 de la actividad se creó la clase DeleteProduct.feature  ubicado en  src/test/java/step_definitions/DeleteProduct.java
+Para el punto 6 de la actividad se creó la clase ExecuteOrder.feature ubicado en  src/test/java/step_definitions/OrderProducts.java
 
 las pruebas de estas tres actividades generaron el PASSED requerido.
 
