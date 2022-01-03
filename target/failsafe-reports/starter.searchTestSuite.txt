@@ -1,12 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: starter.searchTestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 17.622 s <<< FAILURE! - in starter.searchTestSuite
-Borrar un producto de la canasta.Borrar un producto de la canasta  Time elapsed: 17.163 s  <<< ERROR!
-org.openqa.selenium.NoSuchElementException: 
-Unable to find element with locator By.partialLinkText: Samsung galaxy s6
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.637 s <<< FAILURE! - in starter.searchTestSuite
+Realizar Pedido.Ejecutar la orden de compra de los productos  Time elapsed: 6.146 s  <<< ERROR!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Product added}
+  (Session info: chrome=96.0.4664.110): Product added
 Build info: version: '4.1.0', revision: '87802e897b'
-System info: host: 'LAMXP-ELPT20736', ip: '192.168.1.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: driver.version: RemoteWebDriver
+System info: host: 'LAMXP-ELPT20736', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9df578c278d9246e48512c538039c9a, findElement {using=partial link text, value=Sony vaio i7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\axguti\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56952/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9df578c278d9246e48512c538039c9a
 
