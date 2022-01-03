@@ -39,7 +39,7 @@ public class LogInSteps {
 
 
         driver.navigate().to ("https://www.demoblaze.com/index.html");
-        driver.findElement(By.id("signin2")).click();
+        driver.findElement(By.id("login2")).click();
 
 
     }
@@ -57,8 +57,8 @@ public class LogInSteps {
     @And("Click LogIn")
     public void click_log_in() throws InterruptedException {
 
-        driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
-        driver.findElement(By.xpath("//*[@id='logInModal']/div/div/div[3]/button[2]")).click();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.findElement(By.cssSelector("#logInModal > div > div > div.modal-footer > button.btn.btn-primary")).click();
         Thread.sleep(5000);
 
     }
